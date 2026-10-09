@@ -1,0 +1,6 @@
+{
+  "name": "Urban Design & Construction",
+  "description": "Urban Design & Construction provides architectural design, construction, interior design, finishing and turnkey building solutions for residential and commercial projects in Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

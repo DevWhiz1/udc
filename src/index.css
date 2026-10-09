@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-primary: #D8A43E;
+  --color-gold-secondary: #B98525;
+  --color-charcoal-dark: #171717;
+  --color-warm-offwhite: #FAF9F5;
+  --color-light-gray: #F2F2F2;
+
+  --font-poppins: "Poppins", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+}
+
+@layer base {
+  body {
+    @apply font-poppins text-charcoal-dark bg-warm-offwhite;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins;
+  }
+}
